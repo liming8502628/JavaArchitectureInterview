@@ -9,18 +9,59 @@ java 架构面试
 ### 微服务直接的序列化协议有哪些
 ## 中间件
 ### Redis
+#### Redis 的5中数据结构，bitMap?
+#### Redis 缓存 穿透 击穿 雪崩
+#### Redis 布隆过滤器的原理
+#### Redis 缓存淘汰策略
+#### 如何手动实现一个LRU
 ### MQ
+#### MQ 的应用场景 （削峰、解耦、异步、组件通信）
 #### MQ 组件的选型
 #### RabbitMQ 如何保证其消息的可靠性传输
-#### RabbitMQ 如何保证
+#### RabbitMQ 如何保证消息的幂等性
 ### MySql
 #### MyISAM 和 IonoDB 的区别
 #### IonoDB (B+Tree数据结构，为什么不是B Tree,二叉树，或者是HashMap）
 #### 事务的4大特征ACID
-#### 事务的ACID在mysql是如何实现的
+#### 事务的ACID在Mysql是如何实现的
 #### 事务的隔离级别（读未提交、读已经提交、可重复读、串行读 ）
 #### 索引的建立原则
 #### 如何查看sql的执行计划（调优sql）
+### JAVA高阶知识
+#### JVM
+##### 常用的JVM调优参数
+##### 堆外内存调优参数有哪些
+#### 多线程
+##### synchronize 锁升级
+##### 如何实现一个公平锁
+##### 线程池有哪些参数
+### 操作系统
+#### linux 常用命令 awk (取第一行，第一列）
+#### docker 三大概念（容器，镜像，远程镜像集合）
+#### docker 如何进入运行的容器
+#### 如何查看系统负载情况
+#### k8s pod 是什么概念，还知道哪些resource
+#### k8s 如何查看当前运行pod的日志
+#### k8s 底层如何实现的资源隔离（cpu,内存） 
+### 大数据知识
+#### 用过哪些大数据组件（hadoop,spark,strome,flink,hbase,hive）
+#### spark 什么时候进行洗牌（shuffle）
+#### strome 和 flink的区别
+#### flink 中 window 有几种
+Count-based window: 根据元素个数对数据流进行分组切片
+Tumbling CountWindow(翻滚窗口)
+Sliding CountWindow(滑动窗口)
+
+Time-based window: 根据时间对数据流进行分组切片
+Tumbling Window
+Sliding Window
+Session Window
+### AI
+#### 谈谈你对AI的了解
+#### 机器学习和深度学习区别
+#### 了解或者使用过哪些机器学习或者深度学习的框架（Sklearn，tesofl）
+
+
 # 详细内容
 
 ## JAVA 软件架构师6项基本工作
